@@ -1,102 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aaditya Singh | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
-  </head>
-  <body>
-    <nav>
-      <div class="nav__content">
-        <div class="logo"><a href="#">Aaditya Singh</a></div>
-        <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="c:\Users\DELL\Documents\Downloads\Resume .pdf" download>Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aaditya Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Aaditya</a>
+    <nav class="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    <section class="section" id="home">
-      <div class="section__container">
-        <div class="content">
-          <p class="subtitle">HELLO</p>
-          <h1 class="title">I'm <span>Aaditya Singh</span><br />a Java Developer</h1>
-          <p class="description">
-            Motivated B.Tech Computer Science student with a strong foundation in Java, OOP, and DSA. Passionate about backend development and solving real-world problems through code.
-          </p>
-          <div class="action__btns">
-            <a href="c:\Users\DELL\Documents\Downloads\Resume.jpg" download><button class="hire__me">Download Resume</button></a>
-            <a href="#contact"><button class="portfolio">Contact Me</button></a>
-          </div>
-        </div>
-        <div class="image">
-          <img src="c:\Users\DELL\Documents\Downloads\aaditya.jpg" alt="Aaditya Singh" />
-        </div>
+  <section class="home">
+    <div class="home-image">
+      <img src="c:\Users\DELL\Documents\Downloads\aaditya.jpg" alt="Aaditya Singh" />
+    </div>
+    <div class="home-content">
+      <h1>Hi, I'm Aaditya Singh</h1>
+      <h2>Java Developer | Backend Enthusiast</h2>
+      <p>
+        B.Tech CSE student at Arya College of Engineering.<br>
+        Intern at CodSoft | DSA, Java, Python | Passionate about backend development.
+      </p>
+      <div class="home-sci">
+        <a href="https://www.instagram.com/aadityasinghdanuwar?igsh=MTE2Zm00YmV0dW5wZg==" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.linkedin.com/in/aaditya-singh-06b805290" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Aadityacool" target="_blank"><i class='bx bxl-github'></i></a>
       </div>
-    </section>
+      <a href="c:\Users\DELL\Documents\Downloads\Resume .pdf" class="btn" download>Download CV</a>
+    </div>
+  </section>
 
-    <section class="section" id="skills">
-      <div class="section__container">
-        <div class="content">
-          <h2 class="title">Technical Skills</h2>
-          <p class="description">
-            <strong>Languages:</strong> Java, C, C++, Python, SQL<br />
-            <strong>Tools:</strong> Git, GitHub, VS Code, IntelliJ IDEA<br />
-            <strong>Concepts:</strong> OOP, DSA (Data Structures and Algorithms)
-          </p>
-        </div>
-        <div class="image">
-          <img src="skills" alt="Skills" />
-        </div>
-      </div>
-    </section>
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>Career Objective</h2>
+    <p>
+      Motivated B.Tech Computer Science student with strong knowledge of Java, OOP, and DSA. 
+      Aiming to secure a Java Developer role to contribute technical skills in backend development.
+    </p>
+    <h3>Education</h3>
+    <p>B.Tech in Computer Science Engineering <br> Arya College of Engineering, Jaipur <br> Expected Graduation: July 2027</p>
+  </section>
 
-    <section class="section" id="projects">
-      <div class="section__container">
-        <div class="content">
-          <h2 class="title">Projects</h2>
-          <p class="description">
-            <ul>
-              <li><strong>Bank Management System (Java):</strong> OOP-based app for deposit, withdrawal, and balance check.</li>
-              <li><strong>To-Do List (Python):</strong> CLI task manager using file I/O.</li>
-              <li><strong>Calculator (Python):</strong> Arithmetic operation calculator.</li>
-              <li><strong>Password Generator (Python):</strong> Generates secure random passwords.</li>
-            </ul>
-            <br />
-            All hosted on <a href="https://github.com/Aadityacool" target="_blank">GitHub</a>.
-          </p>
-        </div>
-        <div class="image">
-          <img src="assets/project.png" alt="Projects" />
-        </div>
-      </div>
-    </section>
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Java, C, C++, Python</li>
+      <li><strong>Tools:</strong> Git, GitHub, VS Code, IntelliJ IDEA</li>
+      <li><strong>Concepts:</strong> OOP, DSA</li>
+      <li><strong>Certifications:</strong> Java (Basic) & SQL - HackerRank, Python (Online), C & C++ - Arya College</li>
+    </ul>
+  </section>
 
-    <section class="section" id="contact">
-      <div class="section__container">
-        <div class="content">
-          <h2 class="title">Contact Me</h2>
-          <p class="description">
-            📞 <strong>Phone:</strong> <a href="tel:+918824646199">+91 8824646199</a><br />
-            📧 <strong>Email:</strong> <a href="mailto:aadityacool7787@gmail.com">aadityacool7787@gmail.com</a><br />
-            🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aaditya-singh-06b805290" target="_blank">LinkedIn</a><br />
-            💻 <strong>GitHub:</strong> <a href="https://github.com/Aadityacool" target="_blank">GitHub</a><br />
-            📍 <strong>Location:</strong> Jaipur, India
-          </p>
-        </div>
-        <div class="image">
-          <img src="assets/contact.png" alt="Contact" />
-        </div>
-      </div>
-    </section>
-  </body>
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Bank Management System (Java):</strong> Banking tasks like deposit, withdrawal. <a href="https://github.com/Aadityacool" target="_blank">GitHub</a></li>
+      <li><strong>To-Do List App (Python):</strong> CLI task manager using lists and file I/O. <a href="https://github.com/Aadityacool" target="_blank">GitHub</a></li>
+      <li><strong>Calculator App (Python):</strong> Arithmetic calculator. <a href="https://github.com/Aadityacool" target="_blank">GitHub</a></li>
+      <li><strong>Password Generator (Python):</strong> Secure password using Python random library. <a href="https://github.com/Aadityacool" target="_blank">GitHub</a></li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong>+91 8824646199</p>
+    <p><strong>Email:</strong> aadityacool7787@gmail.com</p>
+    <p><strong>Location:</strong> Jaipur, India</p>
+  </section>
+</body>
 </html>
